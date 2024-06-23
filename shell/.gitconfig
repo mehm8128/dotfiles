@@ -1,0 +1,20 @@
+[user]
+	name = mehm8128
+	email = mehm8128@gmail.com
+	signingkey = 651BDC788F64A0A7
+[core]
+	editor = nvim
+[alias]
+  pushf = push --force-with-lease --force-if-includes
+  com = commit -m
+  co = checkout
+  cob = checkout -b
+  sl = stash list
+[commit]
+  gpgsign = true
+[init]
+	defaultBranch = main
+[rebase]
+	autostash = true
+[rerere]
+	enabled = true
