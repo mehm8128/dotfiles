@@ -76,6 +76,7 @@
 	"gitlens.hovers.currentLine.over": "line",
 	"editor.guides.bracketPairs": false,
 	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"files.trimTrailingWhitespace": false
 	},
 	"powermode.combo.timerEnabled": "hide",
