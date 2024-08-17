@@ -1,7 +1,6 @@
 {
 	"workbench.colorTheme": "Material Theme High Contrast",
 	"terminal.integrated.tabs.enabled": true,
-	"remote.SSH.showLoginTerminal": true,
 	"security.workspace.trust.untrustedFiles": "open",
 	"editor.formatOnType": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -35,7 +34,7 @@
 		"editor.defaultFormatter": "golang.go"
 	},
 	"editor.acceptSuggestionOnEnter": "off",
-	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
 	"editor.codeActionsOnSave": {
 		"source.addMissingImports": "explicit",
 		"quickfix.biome": "explicit",
@@ -99,7 +98,7 @@
 	"terminal.integrated.fontFamily": "\"DejaVuSansM Nerd Font Mono\"",
 	"window.commandCenter": false,
 	"background.fullscreen": {
-		"images": [""],
+		"images": ["https://example.com"],
 		"opacity": 0.9,
 		"size": "cover",
 		"position": "center",
@@ -125,5 +124,14 @@
 	"explorer.confirmDelete": false,
 	"gitlens.launchpad.indicator.enabled": false,
 	"github.copilot.editor.enableAutoCompletions": true,
-	"glassit.alpha": 240
+	"glassit.alpha": 240,
+	"scm.experimental.showHistoryGraph": true,
+	"workbench.editor.customLabels.patterns": {
+		"**/index.*": "${dirname} .../${dirname(1)}",
+		"**/{page,route}.{js,ts,jsx,tsx}": "${dirname}/${filename}.${extname} .../${dirname(1)}"
+	},
+	"editor.tokenColorCustomizations": {
+		"comments": "#9daeb1"
+	},
+	"window.zoomLevel": 1.8
 }
