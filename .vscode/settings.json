@@ -118,6 +118,11 @@
 	"vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
 	"vscode-neovim.wslDistribution": "Ubuntu-20.04",
 	"vscode-neovim.useWSL": true,
+	"vscode-neovim.compositeKeys": {
+		"jj": {
+			"command": "vscode-neovim.escape"
+		}
+	},
 	"editor.minimap.enabled": false,
 	"eslint.run": "onSave",
 	"update.showReleaseNotes": false,

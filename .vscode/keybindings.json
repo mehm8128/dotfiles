@@ -1,0 +1,66 @@
+[
+	{
+		"key": "ctrl+tab",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "ctrl+shift+tab",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "editor.emmet.action.balanceOut"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "prettier.forceFormatDocument"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument",
+		"when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "-editor.action.formatDocument.none",
+		"when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "editor.action.formatDocument"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "cursorRight",
+		"when": "neovim.mode == insert && editorTextFocus"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "cursorLeft",
+		"when": "neovim.mode == insert && editorTextFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "cursorDown",
+		"when": "neovim.mode == insert && editorTextFocus"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "cursorUp",
+		"when": "neovim.mode == insert && editorTextFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "sideBarVisible && !editorFocus"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "workbench.view.explorer",
+		"when": "editorFocus"
+	},
+	{
+		"key": "alt+c",
+		"command": "issue.copyGithubPermalink"
+	}
+]
