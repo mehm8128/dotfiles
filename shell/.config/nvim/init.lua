@@ -1,12 +1,11 @@
 local Plug = vim.fn['plug#']
-vim.call('plug#begin', '~/.config/nvim/plugged')
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'github/copilot.vim'
+vim.call('plug#begin')
+Plug('vim-airline/vim-airline')
+Plug('vim-airline/vim-airline-themes')
+Plug('github/copilot.vim')
 Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
+Plug('kylechui/nvim-surround', { ['version'] = '*'})
 vim.call('plug#end')
-
-vim.g.pathogen_disabled = { 'vim-airline', 'vim-airline-themes' }
 
 vim.opt.number = true
 vim.opt.expandtab = true

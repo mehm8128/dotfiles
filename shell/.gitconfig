@@ -1,7 +1,6 @@
 [user]
 	name = mehm8128
 	email = mehm8128@gmail.com
-	signingkey = 651BDC788F64A0A7
 [core]
 	editor = nvim
 [alias]

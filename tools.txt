@@ -1,6 +1,0 @@
-fish
-rust
-pnpm
-bun
-mise
-nvim

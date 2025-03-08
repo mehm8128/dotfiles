@@ -1,142 +1,145 @@
 {
-	"workbench.colorTheme": "Material Theme High Contrast",
-	"terminal.integrated.tabs.enabled": true,
-	"security.workspace.trust.untrustedFiles": "open",
-	"editor.formatOnType": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"git.autofetch": true,
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"explorer.confirmDragAndDrop": false,
-	"editor.tabSize": 2,
-	"git.confirmSync": false,
-	"files.exclude": {
-		"**/.git": false
-	},
-	"go.toolsManagement.autoUpdate": true,
-	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"editor.inlineSuggest.enabled": true,
-	"github.copilot.enable": {
-		"*": true,
-		"yaml": true,
-		"plaintext": false,
-		"markdown": true,
-		"typescriptreact": true,
-		"javascript": true,
-		"typescript": true,
-		"javascriptreact": true,
-		"go": true,
-		"vue": true,
-		"postcss": true
-	},
-	"[go]": {
-		"editor.defaultFormatter": "golang.go"
-	},
-	"editor.acceptSuggestionOnEnter": "off",
-	"terminal.integrated.enableMultiLinePasteWarning": "never",
-	"editor.codeActionsOnSave": {
-		"source.addMissingImports": "explicit",
-		"quickfix.biome": "explicit",
-		"source.organizeImports.biome": "explicit"
-	},
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"go.lintTool": "golangci-lint",
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[vue]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer"
-	},
-	"rust-analyzer.checkOnSave.command": "clippy",
-	"files.trimTrailingWhitespace": true,
-	"typescript.preferences.importModuleSpecifier": "non-relative",
-	"javascript.preferences.importModuleSpecifier": "non-relative",
-	"editor.stickyScroll.enabled": true,
-	"editor.stickyScroll.maxLineCount": 3,
-	"workbench.colorCustomizations": {
-		"editorStickyScroll.background": "#332765",
-		"editorStickyScrollHover.background": "#504083"
-	},
-	"htmltagwrap.tag": "div",
-	"gitlens.hovers.currentLine.over": "line",
-	"editor.guides.bracketPairs": false,
-	"[markdown]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"files.trimTrailingWhitespace": false
-	},
-	"powermode.combo.timerEnabled": "hide",
-	"powermode.shake.enabled": false,
-	"powermode.combo.timeout": 2,
-	"powermode.combo.location": "off",
-	"powermode.combo.counterEnabled": "hide",
-	"powermode.explosions.size": 12,
-	"powermode.enabled": true,
-	"volar.inlayHints.eventArgumentInInlineHandlers": false,
-	"editor.inlayHints.enabled": "off",
-	"editor.wordWrap": "off",
-	"diffEditor.wordWrap": "off",
-	"zenMode.hideActivityBar": false,
-	"typescript.referencesCodeLens.enabled": true,
-	"svg.preview.mode": "svg",
-	"editor.glyphMargin": false,
-	"workbench.tree.indent": 12,
-	"explorer.compactFolders": false,
-	"terminal.integrated.fontFamily": "\"DejaVuSansM Nerd Font Mono\"",
-	"window.commandCenter": false,
-	"background.fullscreen": {
-		"images": ["https://example.com"],
-		"opacity": 0.9,
-		"size": "cover",
-		"position": "center",
-		"interval": 0
-	},
-	"background.enabled": false,
-	"vitest.enable": true,
-	"editor.formatOnSaveMode": "modifications",
-	"files.insertFinalNewline": true,
-	"gitlens.rebaseEditor.ordering": "asc",
-	"workbench.activityBar.location": "top",
-	"git.enableSmartCommit": true,
-	"extensions.experimental.affinity": {
-		"asvetliakov.vscode-neovim": 1
-	},
-	"vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-	"vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
-	"vscode-neovim.wslDistribution": "Ubuntu-20.04",
-	"vscode-neovim.useWSL": true,
-	"vscode-neovim.compositeKeys": {
-		"jj": {
-			"command": "vscode-neovim.escape"
-		}
-	},
-	"editor.minimap.enabled": false,
-	"eslint.run": "onSave",
-	"update.showReleaseNotes": false,
-	"explorer.confirmDelete": false,
-	"gitlens.launchpad.indicator.enabled": false,
-	"github.copilot.editor.enableAutoCompletions": true,
-	"glassit.alpha": 240,
-	"scm.experimental.showHistoryGraph": true,
-	"workbench.editor.customLabels.patterns": {
-		"**/index.*": "${dirname} .../${dirname(1)}",
-		"**/{page,route}.{js,ts,jsx,tsx}": "${dirname}/${filename}.${extname} .../${dirname(1)}"
-	},
-	"editor.tokenColorCustomizations": {
-		"comments": "#9daeb1"
-	},
-	"window.zoomLevel": 1.8
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "terminal.integrated.tabs.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "git.confirmSync": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true,
+    "typescriptreact": true,
+    "javascript": true,
+    "typescript": true,
+    "javascriptreact": true,
+    "go": true,
+    "vue": true,
+    "postcss": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "go.lintTool": "golangci-lint",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "files.trimTrailingWhitespace": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 3,
+  "workbench.colorCustomizations": {
+    "editorStickyScroll.background": "#332765",
+    "editorStickyScrollHover.background": "#504083"
+  },
+  "htmltagwrap.tag": "div",
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.guides.bracketPairs": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.trimTrailingWhitespace": false
+  },
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.combo.timeout": 2,
+  "powermode.combo.location": "off",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.explosions.size": 12,
+  "powermode.enabled": true,
+  "volar.inlayHints.eventArgumentInInlineHandlers": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "zenMode.hideActivityBar": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "svg.preview.mode": "svg",
+  "editor.glyphMargin": false,
+  "workbench.tree.indent": 12,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontFamily": "\"DejaVuSansM Nerd Font Mono\"",
+  "window.commandCenter": false,
+  "background.fullscreen": {
+    "images": ["https://example.com"],
+    "opacity": 0.9,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  "background.enabled": false,
+  "vitest.enable": true,
+  "editor.formatOnSaveMode": "modifications",
+  "files.insertFinalNewline": true,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "workbench.activityBar.location": "top",
+  "git.enableSmartCommit": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
+  "vscode-neovim.wslDistribution": "Ubuntu-20.04",
+  "vscode-neovim.useWSL": true,
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "editor.minimap.enabled": false,
+  "eslint.run": "onSave",
+  "update.showReleaseNotes": false,
+  "explorer.confirmDelete": false,
+  "gitlens.launchpad.indicator.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "glassit.alpha": 240,
+  "scm.experimental.showHistoryGraph": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/index.*": "${dirname} .../${dirname(1)}",
+    "**/{page,route}.{js,ts,jsx,tsx}": "${dirname}/${filename}.${extname} .../${dirname(1)}"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#9daeb1"
+  },
+  "window.zoomLevel": 1.3,
+  "workbench.sideBar.location": "right",
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "editor.cursorSmoothCaretAnimation": "on"
 }
