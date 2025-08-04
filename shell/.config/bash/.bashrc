@@ -1,4 +1,3 @@
-export GPG_TTY=$(tty)
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # This doesn't work on Warp because keybinding seems to be overwritten by the terminal.
@@ -7,6 +6,8 @@ export GPG_TTY=$(tty)
 #}
 #
 #bind -x '"\C-g": _fzf_z_repository'
+
+eval "$(~/.local/bin/mise activate bash)"
 
 alias gg='ghq get'
 alias gp='git pull'
@@ -17,5 +18,8 @@ alias j='z $(ghq list -p | fzf)'
 alias vi="nvim"
 alias vim="nvim"
 
-eval "$(~/.local/bin/mise activate bash)"
+
+alias ssh='ssh.exe'
+
+. "$HOME/.cargo/env"
 eval "$(zoxide init bash)"

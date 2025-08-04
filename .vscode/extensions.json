@@ -1,9 +1,7 @@
 {
-	"recommendations": [
+  "recommendations": [
     "shalldie.background",
     "s-nlf-fh.glassit",
-    "Equinusocio.vsc-material-theme",
-    "equinusocio.vsc-material-theme-icons",
     "t3dotgg.vsc-material-theme-but-i-wont-sue-you",
     "mizdra.css-modules-kit-vscode",
     "ms-vscode-remote.remote-wsl",
@@ -15,7 +13,6 @@
     "usernamehw.errorlens",
     "ms-vsliveshare.vsliveshare",
     "ms-vscode.live-server",
-    "asvetliakov.vscode-neovim",
     "oderwat.indent-rainbow",
     "VisualStudioExptTeam.vscodeintellicode",
     "hoovercj.vscode-power-mode",
@@ -27,8 +24,6 @@
     "esbenp.prettier-vscode",
     "YoavBls.pretty-ts-errors",
     "yusukehirao.vscode-markuplint",
-    "stylelint.vscode-stylelint",
-    "rangav.vscode-thunder-client",
-    "taichi.vscode-textlint"
+    "stylelint.vscode-stylelint"
   ]
 }

@@ -3,14 +3,13 @@
 	email = mehm8128@gmail.com
 [core]
 	editor = nvim
+  sshCommand = ssh.exe
 [alias]
   pushf = push --force-with-lease --force-if-includes
   com = commit -m
   co = checkout
   cob = checkout -b
   sl = stash list
-[commit]
-  gpgsign = true
 [init]
 	defaultBranch = main
 [rebase]
